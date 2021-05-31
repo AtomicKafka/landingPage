@@ -8,11 +8,12 @@ import Footer from '../src/components/Footer'
 function App() {
   return(
     <div>
-      <Header />
-      <h1>Contents</h1>
-      <Content />
-
-      <h1>Footer</h1>
+      <div className="headerContainer">
+        <Header />
+      </div>
+      <div className="mainContentDiv">
+        <Content />
+      </div>
       <Footer />
     </div>
   )

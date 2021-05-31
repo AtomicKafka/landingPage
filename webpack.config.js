@@ -20,7 +20,10 @@ module.exports = {
       { test: /\.(t|j)sx?$/, use: { loader: 'ts-loader' }, exclude: /node_modules/ },
       { enforce: "pre", test: /\.js$/, exclude: /node_modules/, loader: "source-map-loader" },
       { test: /\.js$/, loader: "source-map-loader" },
-
+      {
+        test: /\.s[ac]ss$/i,
+        use: ['style-loader','css-loader','sass-loader'],
+      }
     ]
   },
   devServer: {

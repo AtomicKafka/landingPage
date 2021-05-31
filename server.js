@@ -19,7 +19,7 @@ app.use(express.json());
 app.use('/assets', express.static(path.join(__dirname, './assets')));
 
 app.get('/', (req, res) => {
-  console.log('*** serving root of demo app ( / )');
+  console.log('*** serving root of landing page ( / )');
   res.sendFile(path.resolve(__dirname + '/index.html'))
 })
 

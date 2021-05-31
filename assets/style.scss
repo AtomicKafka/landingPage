@@ -1,0 +1,153 @@
+body {
+  /* background: #1F2833; */
+  background-image: linear-gradient(#87a5c8, #1f253d);
+  font-family: Geneva, Helvetica, sans-serif;
+  color: #C5C6C7;
+  margin: auto;
+  max-width: 100%;
+}
+
+
+
+// Header / navbar styling
+
+// .headerNavBar {
+//   display: inline-flex;
+//   flex-direction: row;
+//   background-color: #0B0C10;
+//   color: #0B0C10;
+//   z-index: 1000;
+// }
+.headerContainer{
+  background-color: #87a5c8;
+  display: inline;
+  flex-direction: row;
+  // align-content: space-between;
+
+}
+.headerNavBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerNavBarLeft{
+  width: 50%;
+}
+.headerNavBarRight {
+  display: flex;
+  align-content: right;
+
+  width: 50%;
+
+}
+
+.headerBtn {
+  border: 1;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 10px 10px 10px 10px;
+  justify-content: space-between;
+  border-radius: 6px;
+  margin: 3px 10px 10px 3px;
+  align-content: center;
+}
+.headerBtn:hover {
+  background-color: white;
+}
+
+
+.headerTag{
+  color: #1f253d;
+  margin: auto;
+}
+
+.mainContentDiv{
+  max-width: 80%;
+  margin: auto;
+}
+
+// #logo {
+//   // display: block;
+//   width: 20%;
+//   margin-left: 2%;
+//   /* padding-right: 0.6em; */
+// }
+
+// #title {
+//   color: #45A29E;
+//   /* color: #66FCF1; */
+//   /* color: #1F2833; */
+//   font-size: 2.5em;
+//   margin-right: 2%;
+//   /* padding-left: 0.6em; */
+// }
+
+// h1 {
+//   text-align: center;
+//   font-weight: bolder;
+//   font-size: 3em;
+//   color: #45A29E;
+// }
+
+
+
+button {
+  font-size: 2em;
+  background-color: #0B0C10;
+  color: #66FCF1;
+  border: 2px solid #66FCF1;
+}
+
+button:hover {
+  background-color: #66FCF1;
+  color: #0B0C10;
+  border: 2px solid #0B0C10;
+}
+
+button:focus {
+  outline: none;
+  background-color: #45A29E;
+  color: #0B0C10;
+  border: 2px solid #0B0C10;
+}
+
+
+.headshots{
+  border-radius: 50%;
+  width:150px;
+  height: 150px;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.teamMember{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.linkedIn{
+  height:30px;
+  width:30px;
+}
+
+.github{
+  height:30px;
+  width:30px;
+}
