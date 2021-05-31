@@ -2,26 +2,30 @@ import React from "react"
 
 function Nav() {
     return (
-        <nav className="header_navbar">
-            <div>
-                <a href="https://atomickafka.org">Atomic Kafka</a>
+        <div className="headerNavBar">
+            <div className="headerNavBarLeft">
+                <div className="headerBtn">
+                    <a className="headerTag" href="https://github.com/AtomicKafka">Atomic Kafka</a>
+                </div>
+                <div className="headerBtn">
+                    <a className="headerTag" href="https://www.npmjs.com/package/atomic-kafka">NPM Package</a>
+                </div>
+                <div className="headerBtn">
+                    <a className="headerTag" href="https://github.com/oslabs-beta/AtomicKafka">Github</a>
+                </div>
             </div>
-            <div>
-                <a href="https://www.npmjs.com/package/atomic-kafka">NPM Package</a>
+            <div className="headerNavBarRight ">
+                <div className="headerBtn">
+                    <a className="headerTag" href="#about">About</a>
+                </div>
+                <div className="headerBtn">
+                    <a className="headerTag" href="#features">Features</a>
+                </div>
+                <div className="headerBtn">
+                    <a className="headerTag" href="#teamFooter">Team</a>
+                </div>
             </div>
-            <div>
-                <a href="https://github.com/oslabs-beta/AtomicKafka">Github</a>
-            </div>
-            <div>
-                <a href="#about">About</a>
-            </div>
-            <div>
-                <a href="#features">Features</a>
-            </div>
-            <div>
-                <a href="#team">Team</a>
-            </div>
-        </nav>
+        </div>
     );
 }
 
