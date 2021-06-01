@@ -3,13 +3,18 @@ import React from "react"
 function Footer() {
     return (
         <div>
-            <h2>Meet the team!</h2>
-            <footer id="teamFooter" className="footer">
+            <div className="footerTitle">
+                <h2>Meet the team!</h2>
+
+            </div>
+            <div id="teamFooter" className="footer">
                 <div className="teamMember">
                     <div className="headshotContainer">
                         <img className="headshots" src="/assets/nikhil.jpg" alt="" />
                     </div>
-                    <h3>Nikhil Massand</h3>
+                    <div className="memberName">
+                        <h3 className="name">Nikhil Massand</h3>
+                    </div>
                     <div className="teamLinks">
                         <a href="https://www.linkedin.com/in/nikhil-massand/">
                             <img className="linkedIn" src="/assets/linkedIn.svg" alt="" />
@@ -22,7 +27,9 @@ function Footer() {
 
                 <div className="teamMember">
                     <img className="headshots" src="/assets/vicki.jpeg" alt="" />
-                    <h3>Vicki Yang</h3>
+                    <div className="memberName">
+                        <h3 className="name">Vicki Yang</h3>
+                    </div>
                     <div className="teamLinks">
                         <a href="https://www.linkedin.com/in/vwyang/">
                             <img className="linkedIn" src="/assets/linkedIn.svg" alt="" />
@@ -35,7 +42,9 @@ function Footer() {
 
                 <div className="teamMember">
                     <img className="headshots" src="/assets/david.jpg" alt="" />
-                    <h3>David Behmoaras</h3>
+                    <div className="memberName">
+                        <h3 className="name">David Behmoaras</h3>
+                    </div>
                     <div className="teamLinks">
                         <a href="https://www.linkedin.com/in/david-behmoaras-6a688057/">
                             <img className="linkedIn" src="/assets/linkedIn.svg" alt="" />
@@ -48,15 +57,33 @@ function Footer() {
                 </div>
 
                 <div className="teamMember">
-                    <h3>Joseph Lee</h3>
+                    <img className="headshots" src="/assets/joseph.png" alt="" />
+                    <div className="memberName">
+                        <h3 className="name">Joseph Lee</h3>
+
+                    </div>
                     <div className="teamLinks">
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/joseph-lee-a97198213/">
                             <img className="linkedIn" src="/assets/linkedIn.svg" alt="" />
                         </a>
                         <a href="">
                             <img className="github" src="/assets/github.svg" alt="" />
                         </a>
                     </div>
+                </div>
+            </div>
+            <footer className="closingContainer">
+                <h1 className="contributions">
+                    Contributions are welcome!
+                </h1>
+                <div className="feedback">
+                    We appreciate any feedback on our package so feel free to give us some! <a className="linkLib" href="https://github.com/oslabs-beta/AtomicKafka">You can fork it here</a> and submit PRs.
+                    <p>
+                        You can also email us: atomickafkajs[at]gmail[dot]com
+                    </p>
+                    <p className="disclaimer">
+                        MIT Licensed | Copyright @ 2021 AtomicKafka. All Rights Reserved.
+                    </p>
                 </div>
             </footer>
         </div>
