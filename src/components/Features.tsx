@@ -1,84 +1,71 @@
 import React from "react";
 
-
-/**
- * Features & compatibility
- *  supports docker and confluent
- *  supports ksqlDB
- *
- *
- * Code blocks
- *  1. Server
- *  2. Producer
- *  3. Producer
- *
- * People: (not in current component)
- */
-
 function Features() {
   return(
-    <div className="features">
-      <div className="feature1">
-        <h3>Sentences on Server side library</h3>
-        <pre>
-{`//initialize and configure expressApp according to user specifications
-
-const AtomicKafkaServer = require('atomic-kafka/server')
-
-const server = expressApp.listen(process.env.PORT, () => {
-  console.log(\`Listening on port \${process.env.PORT}\`);
-}
-const aks = new AtomicKafkaServer(server);`}
-        </pre>
-        <pre>
-          <code>
-            atomicKafkaInstance.newConsumer('group_ID_string'); <br/>
-            atomicKafkaInstance.socketConsume('group_ID_string', 'event_string', 'topic_string');
-          </code>
-        </pre>
-        <pre>
-          <code>
-            atomicKafkaInstance.newProducer('topic_string'); <br/>
-            atomicKafkaInstance.globalProduce('postMessage', 'test_topic')
-          </code>
-        </pre>
+    <div id="featureLink" className="features">
+      
+      <div className="featureContent">
+        <h3 className="featureHeading">Server-Side Library</h3>
+        <div className="explainPlusBlock">
+          <div className="codeExplain">
+            <p>Simply import Atomic Kafka server side library and initialize an instance using the port 
+            connected with the application's server. Ensure that your .env file is set up with either your Confluent 
+            credentials or docker image. See an example of what that should look like HERE.</p>
+          </div>
+          <div className="codeBlockContainer">
+            <img className="codeBlock" src="../../assets/serverside-1.svg" />
+          </div>
+        </div>
+        <div className="explainPlusBlock">
+          <div className="codeExplain">
+            <p>Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs.</p>
+          </div>
+          <div className="codeBlockContainer">
+            <img className="codeBlock" src="../../assets/serverside-2.svg" />
+          </div>
+        </div>
+        <div className="explainPlusBlock">
+          <div className="codeExplain">
+          <p>Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs.</p>
+          </div>
+          <div className="codeBlockContainer">
+            <img className="codeBlock" src="../../assets/serverside-3.svg" />
+          </div>
+        </div>
       </div>
+      <div className="featureContent">
+        <h3 className="featureHeading">Client-Side Library</h3>
+        <div className="explainPlusBlock">
+          <div className="codeExplain">
+          <p>Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs.</p>
+          </div>
+          <div className="codeBlockContainer">
+            <img className="codeBlock" src="../../assets/clientside-1.svg" />
+          </div>
+        </div>
+        <div className="explainPlusBlock">
+          <div className="codeExplain">
+            <p>Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs.</p>
+          </div>
+          <div className="codeBlockContainer">
+            <img className="codeBlock" src="../../assets/clientside-2.svg" />
+          </div>
+        </div>
+        <div className="explainPlusBlock">
+          <div className="codeExplain">
+          <p>Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs. Blah blah blah do something here, download our code, star our package, hire us for jobs.</p>
+          </div>
+          <div className="codeBlockContainer">
+            <img className="codeBlock" src="../../assets/clientside-3.svg" />
+          </div>
+        </div>
 
-      <div className="feature2">
-        <h3>Sentences on Client side library</h3>
-        <pre>
-          <code>
-            declare function require(name: string)
-            const AtomicKafkaClient = require('atomic-kafka/client').default
-          </code>
-        </pre>
-        <pre>
-        {`function Consumer_Component () {
-    const akc = new AtomicKafkaClient(URI_STRING);
+    
+    </div>
 
-    const callback = (payload) => {
-      //user-defined function definition
-    }
-    akc.useInterval(() => akc.consumer(<event_string>, callback), <interval_delay>)
-    }`}
-        </pre>
-        <pre>
-        {`function Producer_Component () {
-
-    const akc = new AtomicKafkaClient(URI_STRING);
-
-    const payload = {
-      //arbitrarily nested key value pairs
-    };
-
-    akc.producer(<event_string>, payload);
-    }`}
-        </pre>
-      </div>
-
-      <div className="feature3">
+      {/* <div className="feature3">
         <h3>Sentences on compatibility with KSQLDB</h3>
-      </div>
+      </div> */}
     </div>
 
   )

@@ -2,16 +2,30 @@ import React from "react";
 
 function About() {
   return(
-    <div className="about">
-      {/* <img src="assets/logo-vert.png" width="600" alt="" /> */}
-      <img id="logo" src="assets/logo.svg" height="200" width="600" alt="" />
-      <h3>An npm package for JavaScript developers that facilitates connections between React applications and Kafka cluster through the use of WebSockets
-      </h3>
-      <a href="https://github.com/oslabs-beta/AtomicKafka">
-        <button id="install-btn">
-        Install
-        </button>
-      </a>
+    <div id="aboutLink" className="aboutContainer">
+      <div className="aboutSection">
+        <h2>React Integration</h2>
+        <p>
+          Atomic Kafka provides developers with client and server libraries that support KafkaJS
+          React applications. Use our npm package to seamlessly connect stateful React components and a Kafka 
+          message broker.
+        </p>
+      </div>
+
+      <div className="aboutSection">
+        <h2>Integration with KSQLDB</h2>
+        <p>
+          Connect your Atomic Kafka Consumers or Producers with your KSQLDB stream.
+        </p>
+      </div>
+
+      <div className="aboutSection">
+        <h2>Lightweight</h2>
+        <p>
+          I don't know what to say with this one! I don't know what to say with this one!
+           I don't know what to say with this one! I don't know what to say with this one!
+        </p>
+      </div>
     </div>
   )
 }
