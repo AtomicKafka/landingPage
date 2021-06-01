@@ -16,10 +16,10 @@ function Nav() {
             </div>
             <div className="headerNavBarRight ">
                 <div className="headerBtn">
-                    <a className="headerTag" href="#about">About</a>
+                    <a className="headerTag" href="#aboutLink">About</a>
                 </div>
                 <div className="headerBtn">
-                    <a className="headerTag" href="#features">Features</a>
+                    <a className="headerTag" href="#featureLink">Features</a>
                 </div>
                 <div className="headerBtn">
                     <a className="headerTag" href="#teamFooter">Team</a>

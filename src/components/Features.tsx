@@ -17,7 +17,7 @@ import React from "react";
 
 function Features() {
   return(
-    <div className="features">
+    <div id="featureLink" className="features">
       <div className="feature1">
         <h3>Sentences on Server side library</h3>
         <pre>
