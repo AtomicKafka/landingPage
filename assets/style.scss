@@ -1,13 +1,21 @@
 body {
   /* background: #1F2833; */
-  background-image: linear-gradient(#87a5c8, #1f253d);
+  // background-image: linear-gradient(#87a5c8, #1f253d);
+  // background-image: url('nasa.jpg');
+  // background-size: contain;
+  // background-repeat: no-repeat;
   font-family: Geneva, Helvetica, sans-serif;
   color: #C5C6C7;
-  margin: auto;
-  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-
+h3 {
+  text-align: center;
+  color: ghostwhite;
+  font-size: 1.2em;
+  margin: 0 0 2em 0;
+}
 
 // Header / navbar styling
 
@@ -18,55 +26,108 @@ body {
 //   color: #0B0C10;
 //   z-index: 1000;
 // }
-.headerContainer{
-  background-color: #87a5c8;
-  display: inline;
-  flex-direction: row;
-  // align-content: space-between;
+// .headerContainer{
+//   background-color: #87a5c8;
+//   display: inline;
+//   flex-direction: row;
+//   // align-content: space-between;
 
+// }
+
+.headerContainer {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
-.headerNavBar{
+
+.headerNavBar {
+  background-color: #3F4B59;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
+
 .headerNavBarLeft{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   width: 50%;
 }
+
 .headerNavBarRight {
   display: flex;
-  align-content: right;
-
+  flex-direction: row;
+  justify-content: flex-end;
   width: 50%;
-
 }
 
 .headerBtn {
-  border: 1;
-  border-color: white;
-  border-width: 3px;
-  border-style: solid;
-  display: inline-flex;
-  flex-direction: row;
-  padding: 10px 10px 10px 10px;
-  justify-content: space-between;
-  border-radius: 6px;
-  margin: 3px 10px 10px 3px;
-  align-content: center;
-}
-.headerBtn:hover {
-  background-color: white;
+  border: none;
+  padding: 1em;
+  margin: 0;
 }
 
+.headerBtn:hover {
+  background-color: ghostwhite;
+}
 
 .headerTag{
-  color: #1f253d;
+  color: ghostwhite;
   margin: auto;
+  text-decoration: none;
 }
 
 .mainContentDiv{
-  max-width: 80%;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-features {
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('nasa.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // width: 100%;
+  height: 100vh;
+  padding: 0 20%;
+}
+
+#install-btn {
+  font-size: 1.5em;
+  margin: 1em;
+  padding: 0.4em 1.8em;
+  border: 2px solid ghostwhite;
+  color: ghostwhite;
+  background-color: transparent;
+}
+
+#install-btn:hover {
+  color: #00060D;
+  background-color: ghostwhite;
+  cursor: pointer;
+}
+
+.feature1 {
+  background-color: #00060D;
+  height: 50vh;
+}
+
+pre {
+  margin: 0;
+}
+
+.feature2 {
+  background-color: #012340;
+}
+
+.feature3 {
+  background-color: #3F4B59;
 }
 
 // #logo {

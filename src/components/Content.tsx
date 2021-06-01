@@ -5,12 +5,10 @@ import Features from "../components/Features";
 
 function Content() {
     return (
-        <div>
-            <div className="container content">
-              <Install />
+        <div className="about-features-container">
+              {/* <Install /> */}
               <About />
               <Features />
-            </div>
         </div>
     );
 }

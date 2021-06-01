@@ -3,10 +3,15 @@ import React from "react";
 function About() {
   return(
     <div className="about">
-      <img src="assets/logo.svg" height="200" width="600" alt="" />
-      <h3>AtomicKafka is an open-source npm package that provides an encapsulated way for JS developers
-        to facilitate connections between their React applications and Kafka cluster through the use of web sockets.
+      {/* <img src="assets/logo-vert.png" width="600" alt="" /> */}
+      <img id="logo" src="assets/logo.svg" height="200" width="600" alt="" />
+      <h3>An npm package for JavaScript developers that facilitates connections between React applications and Kafka cluster through the use of WebSockets
       </h3>
+      <a href="https://github.com/oslabs-beta/AtomicKafka">
+        <button id="install-btn">
+        Install
+        </button>
+      </a>
     </div>
   )
 }
