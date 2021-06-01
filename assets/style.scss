@@ -112,7 +112,7 @@ body {
   background-color: #5e6f80;
   display: flex;
   flex-direction: row;
-  padding: 5em 10%;
+  padding: 5em 5%;
 }
 
 .aboutSection {
@@ -121,14 +121,18 @@ body {
   padding: 0 2em;
 }
 
-
 .demosBox {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 50%;
+  padding: 0 2.5%;
   // border: 2px solid red;
+}
+
+.demoText {
+  margin-bottom: 1em;
 }
 
 .producerGif {
@@ -140,7 +144,8 @@ body {
 }
 
 .producerGif img {
-  width: 95%;
+  max-width: 100%;
+  height: 40vh;
   // border: 2px solid green;
 }
 
@@ -153,7 +158,8 @@ body {
 }
 
 .consumerGif img {
-  width: 95%;
+  max-width: 100%;
+  height: 40vh;
   // border: 2px solid green;
 }
 
