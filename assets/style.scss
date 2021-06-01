@@ -81,11 +81,11 @@ h3 {
   flex-direction: column;
 }
 
-.about-features {
+.about-features-container {
   width: 100%;
 }
 
-.about {
+.titleCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,6 +112,19 @@ h3 {
   background-color: ghostwhite;
   cursor: pointer;
 }
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(94, 111, 128);
+}
+
+.aboutSection {
+  width: 33%;
+}
+
+
 
 .feature1 {
   background-color: #00060D;
