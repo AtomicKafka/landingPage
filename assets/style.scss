@@ -10,7 +10,7 @@ body {
   padding: 0;
 }
 
-h3 {
+#titleDescript {
   text-align: center;
   color: ghostwhite;
   font-size: 1.2em;
@@ -74,6 +74,12 @@ h3 {
   color: ghostwhite;
   margin: auto;
   text-decoration: none;
+  padding: 1em;
+  margin: 0;
+}
+
+.headerTag:hover{
+  color: #66FCF1;
 }
 
 .mainContentDiv{
@@ -81,9 +87,14 @@ h3 {
   flex-direction: column;
 }
 
+
+
+
+
 .about-features-container {
   width: 100%;
 }
+
 
 .titleCard {
   display: flex;
@@ -97,6 +108,8 @@ h3 {
   height: 100vh;
   padding: 0 20%;
 }
+
+
 
 #install-btn {
   font-size: 1.5em;
@@ -117,30 +130,80 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: rgb(94, 111, 128);
+  background-color: #00060D;
+  padding: 0 3em 0 3em;
 }
+
+.demosContainer{
+  background-color: #5e6f80;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 
 .aboutSection {
+  color: ghostwhite;
   width: 33%;
+  padding: 0 2em 0 2em;
 }
 
+.features {
+  display: flex;
+  flex-direction: column;
+  background-color: #5e6f80;
+  padding: 0 5%;
+}
 
+.featureHeading {
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+}
 
 .feature1 {
-  background-color: #00060D;
-  height: 50vh;
+  // background-color: #5e6f80;
+  // height: 50vh;
+  display: flex;
+  flex-direction: column;
+  // padding: 0 2em 0 2em;
 }
 
-pre {
-  margin: 0;
+.explainPlusBlock {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  // padding: 1em 2em;
 }
+
+.codeExplain {
+  // flex-basis: 1;
+  width: 50%;
+}
+
+.codeBlockContainer{
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  width: 50%;
+  // flex-basis: 4;
+}
+
 
 .feature2 {
-  background-color: #012340;
+  // background-color: #012340;
+  // height: 50vh;
+  display: flex;
+  flex-direction: row;
+  // padding: 0 2em 0 2em;
 }
 
 .feature3 {
-  background-color: #3F4B59;
+  // background-color: #3F4B59;
+}
+
+.codeBlock {
+  width: 100%;
 }
 
 // #logo {
@@ -191,15 +254,23 @@ button:focus {
 
 .headshots{
   border-radius: 50%;
-  width:150px;
-  height: 150px;
+  width:200px;
+  height: 200px;
 
 }
 
 .footer{
+  background-color: #3F4B59;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.footerTitle{
+  background-color: #3F4B59;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .teamMember{
@@ -207,6 +278,17 @@ button:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.memberName{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  margin: 1em 0 1em 0;
 }
 
 .teamLinks{
@@ -224,4 +306,27 @@ button:focus {
 .github{
   height:30px;
   width:30px;
+}
+
+.closingContainer{
+  background-color: #3F4B59;
+  padding: 3em 3em 0 3em;
+}
+
+.contributions{
+  padding: 0 2em 0 1em;
+  margin: 0;
+}
+
+.feedback{
+  padding: 0 2em 0 2em;
+}
+
+.linkLib {
+  color: white;
+  text-decoration: none;
+}
+.disclaimer{
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
