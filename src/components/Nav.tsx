@@ -4,9 +4,10 @@ function Nav() {
     return (
         <div className="headerNavBar">
             <div className="headerNavBarLeft">
-                <a className="headerTag" href="https://github.com/AtomicKafka">Atomic Kafka</a>
+                <a id="homeTag" className="headerTag" href="http://www.atomickafka.com">AtomicKafka</a>
                 <a className="headerTag" href="https://www.npmjs.com/package/atomic-kafka">NPM Package</a>
                 <a className="headerTag" href="https://github.com/oslabs-beta/AtomicKafka">GitHub</a>
+                <a className="headerTag" href="https://medium.com/@dbehmoaras/2eb79b20eaae?source=friends_link&sk=843b83b81eb79f37f0d2b8a96ce26212">Blog</a>
             </div>
             <div className="headerNavBarRight ">
                 <a className="headerTag" href="#aboutLink">About</a>

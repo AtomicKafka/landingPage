@@ -27,6 +27,7 @@
 
   .demoText {
     height: 5% !important;
+    padding-bottom: 5% !important;
   }
 
   .consumerGif{
@@ -82,6 +83,7 @@ body {
 .headerNavBarLeft {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
   width: 50%;
 }
@@ -89,6 +91,7 @@ body {
 .headerNavBarRight {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: flex-end;
   width: 50%;
 }
@@ -101,6 +104,10 @@ body {
 
 .headerBtn:hover {
   background-color: ghostwhite;
+}
+
+#homeTag {
+  font-size: 1.4em;
 }
 
 .headerTag{
@@ -142,13 +149,15 @@ body {
   padding: 0.4em 1.8em;
   border: 2px solid ghostwhite;
   color: ghostwhite;
-  background-color: transparent;
+  background-color: #0B0C10;
+  opacity: 75%;
 }
 
 #install-btn:hover {
   color: #00060D;
   background-color: ghostwhite;
   cursor: pointer;
+  opacity: 100%;
 }
 
 .aboutContainer {
