@@ -11,7 +11,7 @@ function Nav() {
             <div className="headerNavBarRight ">
                 <a className="headerTag" href="#aboutLink">About</a>
                 <a className="headerTag" href="#featureLink">Features</a>
-                <a className="headerTag" href="#teamFooter">Team</a>
+                <a className="headerTag" href="#teamContainer">Team</a>
             </div>
         </div>
     );

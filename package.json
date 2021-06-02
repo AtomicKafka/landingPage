@@ -1,11 +1,13 @@
 {
-  "name": "demoapp_atomickafka",
+  "name": "landingPage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack",
+    "webpack": "./node_modules/.bin/webpack -w",
+    "start": "NODE_ENV=production node server.js",
     "dev": "NODE_ENV=development webpack server --open & NODE_ENV=development nodemon server.js"
   },
   "dependencies": {
