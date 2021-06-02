@@ -21,6 +21,7 @@
     "express": "^4.17.1",
     "file-system": "^2.2.2",
     "fs": "0.0.1-security",
+    "heroku": "^7.54.0",
     "kafkajs": "^1.15.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
