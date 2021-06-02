@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import Header from '../src/components/Header'
-import Content from '../src/components/Content'
-import Footer from '../src/components/Footer'
+import Header from './components/Header'
+import Content from './components/Content'
+import Footer from './components/Footer'
 
 
 function App() {

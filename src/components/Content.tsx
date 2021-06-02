@@ -1,9 +1,9 @@
 import React from "react";
-import Install from "../components/Install";
-import TitleCard from "../components/TitleCard";
-import Features from "../components/Features";
-import About from "../components/About";
-import Demos from "../components/Demos";
+import Install from "./Install";
+import TitleCard from "./TitleCard";
+import Features from "./Features";
+import About from "./About";
+import Demos from "./Demos";
 
 function Content() {
     return (

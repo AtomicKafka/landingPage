@@ -302,6 +302,13 @@ body {
   padding: 1em 0;
 }
 
+
+@media screen and (max-width: 990px){
+  .teamFooter{
+    flex-wrap: wrap;
+  }
+}
+
 .teamFooter{
   background-color: #3F4B59;
   display: flex;
@@ -314,7 +321,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 4em;
+  margin: 0 auto;
 }
 
 .memberName{
