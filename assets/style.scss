@@ -25,6 +25,10 @@
     padding: 0 !important;
   }
 
+  .demoText {
+    height: 5% !important;
+  }
+
   .consumerGif{
     display: flex !important;
     flex-direction: row !important;
@@ -188,6 +192,7 @@ body {
 // }
 
 .demoText {
+  height: 12vh;
   margin-bottom: 1em;
 }
 

@@ -6,9 +6,8 @@ function Demos() {
       <div className="demosBox">
         <h3 className="featureHeading">Producer Demo</h3>
         <div className="demoText">
-          The producer app demonstrates how purchase orders are sent as messages to a specified Kafka cluster based off of user inputs
-          The representation below shows messages created off of user inputs but this app can also send messages in a constant stream from
-          a different input source.
+          The producer app below demonstrates how purchase orders are sent as messages to a specified Kafka cluster based off of user inputs. The app can also send messages in a constant stream from
+          a different input source, without the use for user inputs.
         </div>
         <div className="producerGif">
           <img src="/assets/producer.gif" alt="" />
