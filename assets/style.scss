@@ -1,3 +1,47 @@
+@media screen and (max-width: 990px) {
+
+  .aboutContainer{
+    padding: 0 10% !important;
+    flex-wrap: wrap;
+  }
+
+  .aboutSection{
+    padding: 0 2% !important;
+  }
+
+  .teamFooter{
+    flex-wrap: wrap;
+  }
+  .demosContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10% !important;
+  }
+  .consumerGif{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+  }
+  .explainPlusBlock{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .features {
+    padding: 0 10% !important;
+  }
+  .codeExplain {
+    width: 100% !important;
+    margin-bottom: 1em !important;
+  }
+  .codeBlockContainer {
+    width: 100% !important;
+  }
+}
+
 body {
   font-family: Geneva, Helvetica, sans-serif;
   color: ghostwhite;
@@ -128,7 +172,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 100%;
   padding: 0 2.5%;
   // border: 2px solid red;
 }
@@ -235,52 +279,6 @@ body {
   width: 100%;
 }
 
-// #logo {
-//   // display: block;
-//   width: 20%;
-//   margin-left: 2%;
-//   /* padding-right: 0.6em; */
-// }
-
-// #title {
-//   color: #45A29E;
-//   /* color: #66FCF1; */
-//   /* color: #1F2833; */
-//   font-size: 2.5em;
-//   margin-right: 2%;
-//   /* padding-left: 0.6em; */
-// }
-
-// h1 {
-//   text-align: center;
-//   font-weight: bolder;
-//   font-size: 3em;
-//   color: #45A29E;
-// }
-
-
-
-// button {
-//   font-size: 2em;
-//   background-color: #0B0C10;
-//   color: #66FCF1;
-//   border: 2px solid #66FCF1;
-// }
-
-// button:hover {
-//   background-color: #66FCF1;
-//   color: #0B0C10;
-//   border: 2px solid #0B0C10;
-// }
-
-// button:focus {
-//   outline: none;
-//   background-color: #45A29E;
-//   color: #0B0C10;
-//   border: 2px solid #0B0C10;
-// }
-
-
 .headshots{
   border-radius: 50%;
   width:200px;
@@ -300,13 +298,6 @@ body {
   margin: 0;
   font-size: 2em;
   padding: 1em 0;
-}
-
-
-@media screen and (max-width: 990px){
-  .teamFooter{
-    flex-wrap: wrap;
-  }
 }
 
 .teamFooter{
