@@ -76,7 +76,12 @@ function Footer() {
                     Contributions are welcome!
                 </h1>
                 <div className="feedback">
-                    We appreciate any feedback on our package so feel free to give us some! <a className="linkLib" href="https://github.com/oslabs-beta/AtomicKafka">You can fork it here</a> and submit PRs.
+                    We appreciate any feedback on our package so feel free to give us some and drop
+                     <a href="https://github.com/oslabs-beta/AtomicKafka/stargazers">
+                        <img id="star" alt="GitHub Repo stars" src="https://img.shields.io/github/stars/oslabs-beta/AtomicKafka?color=%2366FCF1&style=for-the-badge"/>
+                    </a>
+                    ! You can fork it <a className="linkLib" href="https://github.com/oslabs-beta/AtomicKafka"> here</a> and submit PRs.
+                
                     <p>
                         You can also email us: atomickafkajs[at]gmail[dot]com
                     </p>

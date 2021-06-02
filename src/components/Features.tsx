@@ -10,8 +10,8 @@ function Features() {
         <div className="explainPlusBlock">
           <div className="codeExplain">
             <p>Ensure that your .env file is set up with either your Confluent 
-              credentials or docker image. See an example of what that should look like in our readme 
-              <a href="https://github.com/oslabs-beta/AtomicKafka" className="linkLib">here</a>. 
+              credentials or docker image. See an example of what that should look like in 
+              readme <a href="https://github.com/oslabs-beta/AtomicKafka" className="linkLib">here</a>. 
               Simply import Atomic Kafka server side library and initialize an instance using the port 
               connected with the application's server. 
             </p>

@@ -257,7 +257,7 @@ body {
 .codeExplain {
   // flex-basis: 1;
   width: 40%;
-  padding: 0 1em;
+  padding: 0.5em 1em;
 }
 
 .codeExplain p {
@@ -355,6 +355,13 @@ body {
   height: 30px;
   width: 30px;
   margin-left: 1em;
+}
+
+#star {
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  padding-bottom: 0;
+  height: 25px;
 }
 
 .closingContainer{
