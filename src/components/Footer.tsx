@@ -25,7 +25,7 @@ function Footer() {
                 </div>
 
                 <div className="teamMember">
-                    <img className="headshots" src="/assets/vicki.jpeg" alt="" />
+                    <img className="headshots" src="/assets/vicki.jpg" alt="" />
                     <div className="memberName">
                         <h3 className="name">Vicki Yang</h3>
                     </div>

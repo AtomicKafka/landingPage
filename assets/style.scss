@@ -1,6 +1,7 @@
 body {
   font-family: Geneva, Helvetica, sans-serif;
   color: ghostwhite;
+  background-color: #0B0C10;
   margin: 0;
   padding: 0;
 }
@@ -144,7 +145,7 @@ body {
 }
 
 .producerGif img {
-  max-width: 100%;
+  // max-width: 100%;
   height: 40vh;
   // border: 2px solid green;
 }
@@ -158,7 +159,7 @@ body {
 }
 
 .consumerGif img {
-  max-width: 100%;
+  // max-width: 100%;
   height: 40vh;
   // border: 2px solid green;
 }
