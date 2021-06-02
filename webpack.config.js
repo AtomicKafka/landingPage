@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   mode: process.env.NODE_ENV,
   entry: {
-    main: path.resolve(__dirname,'./src/index.tsx')
+    main: path.resolve(__dirname, './src/index.tsx')
   },
   output: {
     path: path.resolve(__dirname, './build'),

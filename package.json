@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.tsx",
   "scripts": {
+    "start": "NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack",
-    "webpack": "./node_modules/.bin/webpack -w",
-    "start": "NODE_ENV=production node server.js",
-    "dev": "NODE_ENV=development webpack server --open & NODE_ENV=development nodemon server.js"
+    "dev": "NODE_ENV=development webpack server --open & NODE_ENV=development nodemon server.js",
+    "webpack": "./node_modules/.bin/webpack -w"
   },
   "dependencies": {
     "@babel/runtime": "^7.13.17",

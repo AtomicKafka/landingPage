@@ -23,18 +23,21 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname + '/index.html'))
 })
 
-if(process.env.NODE_ENV === 'production'){
-  app.use('/build', express.static(path.join(__dirname, '/build')));
+if (process.env.NODE_ENV === 'production') {
+  // statically serve everything in the build folder on the route '/build'
+  app.use('/build', express.static(path.join(__dirname, './build')));
+  // serve index.html on the route '/'
   app.get('/', (req, res) => {
-    return res.status(200).sendFile(path.join(__dirname, '/index.html'));
+    return res.status(200).sendFile(path.join(__dirname, './index.html'));
   });
 }
+
 
 //Global 404 handler
 app.use('*', (req, res) => {
   return res.status(404).send('********** GLOBAL BAD REQUEST / 404 ERROR **********');
 });
 
-const server = app.listen(port, () => {
+const server = app.listen(process.env.PORT || port, () => {
   console.log(`Listening on port ${port}`);
 });

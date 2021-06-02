@@ -21,6 +21,7 @@ body {
 
 .headerNavBar {
   background-color: #3F4B59;
+  opacity: 0.8;
   display: flex;
   flex-direction: row;
 }
@@ -145,22 +146,22 @@ body {
 }
 
 .producerGif img {
-  // max-width: 100%;
-  height: 40vh;
+  max-width: 100%;
+  // height: 40vh;
   // border: 2px solid green;
 }
 
 .consumerGif {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .consumerGif img {
-  // max-width: 100%;
-  height: 40vh;
+  max-width: 95%;
+  // height: 40vh;
   // border: 2px solid green;
 }
 
@@ -301,6 +302,13 @@ body {
   padding: 1em 0;
 }
 
+
+@media screen and (max-width: 990px){
+  .teamFooter{
+    flex-wrap: wrap;
+  }
+}
+
 .teamFooter{
   background-color: #3F4B59;
   display: flex;
@@ -313,7 +321,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 4em;
+  margin: 0 auto;
 }
 
 .memberName{
