@@ -1,4 +1,5 @@
 import React from "react";
+import Gist from "react-gist";
 
 function Features() {
   return(
@@ -18,7 +19,8 @@ function Features() {
           <div className="codeBlockContainer">
             {/* <svg  width="100%"> */}
             {/* <svg viewBox="0 0 200 auto"> */}
-              <img className="codeBlock" src="../../assets/serverside-1.svg" />
+            <Gist id='c526ba5708e77959566019e16a0811c3' />
+            {/* <img className="codeBlock" src="../../assets/serverside-1.svg" /> */}
             {/* </svg> */}
           </div>
         </div>
@@ -30,7 +32,8 @@ function Features() {
             </p>
           </div>
           <div className="codeBlockContainer">
-            <img className="codeBlock" src="../../assets/serverside-2.svg" />
+          <Gist id='1fc9d041f2e833a47b29020744d96368' />
+            {/* <img className="codeBlock" src="../../assets/serverside-2.svg" /> */}
           </div>
         </div>
         <div className="explainPlusBlock">
@@ -41,7 +44,8 @@ function Features() {
           </p>
           </div>
           <div className="codeBlockContainer">
-            <img className="codeBlock" src="../../assets/serverside-3.svg" />
+            <Gist id='012027cd0a6e031bb0ef035e3e1a95bb' />
+            {/* <img className="codeBlock" src="../../assets/serverside-3.svg" /> */}
           </div>
         </div>
       </div>
@@ -54,7 +58,8 @@ function Features() {
           </p>
           </div>
           <div className="codeBlockContainer">
-            <img className="codeBlock" src="../../assets/clientside-1.svg" />
+            <Gist id='f7bf238b3d0099c14486d32fe0c6a05a' />
+            {/* <img className="codeBlock" src="../../assets/clientside-1.svg" /> */}
           </div>
         </div>
         <div className="explainPlusBlock">
@@ -67,7 +72,8 @@ function Features() {
             </p>
           </div>
           <div className="codeBlockContainer">
-            <img className="codeBlock" src="../../assets/clientside-2.svg" />
+            <Gist id='6cc76e21822321fb8f74d2e1f5baa469' />
+            {/* <img className="codeBlock" src="../../assets/clientside-2.svg" /> */}
           </div>
         </div>
         <div className="explainPlusBlock">
@@ -79,7 +85,8 @@ function Features() {
           </p>
           </div>
           <div className="codeBlockContainer">
-            <img className="codeBlock" src="../../assets/clientside-3.svg" />
+            <Gist id='c233f9cc7c822ab4af04d25c5a76c8d0' />
+            {/* <img className="codeBlock" src="../../assets/clientside-3.svg" /> */}
           </div>
         </div>
 
