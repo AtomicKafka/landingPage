@@ -38,6 +38,6 @@ app.use('*', (req, res) => {
   return res.status(404).send('********** GLOBAL BAD REQUEST / 404 ERROR **********');
 });
 
-const server = app.listen(port, () => {
+const server = app.listen(process.env.PORT || port, () => {
   console.log(`Listening on port ${port}`);
 });
