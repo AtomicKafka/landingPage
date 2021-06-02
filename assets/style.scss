@@ -1,8 +1,6 @@
 @media screen and (max-width: 990px) {
-
   .aboutContainer{
     padding: 0 10% !important;
-    flex-wrap: wrap;
   }
 
   .aboutSection{
@@ -275,9 +273,22 @@ body {
   // flex-basis: 4;
 }
 
+// svg {
+//   position: aboslute;
+//   height: 100%;
+//   width: 100%;
+//   left: 0;
+//   right: 0;
+// }
+
 .codeBlock {
   width: 100%;
 }
+
+// svg {
+//   width: 100%;
+//   height: 100%;
+// }
 
 .headshots{
   border-radius: 50%;

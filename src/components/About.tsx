@@ -13,7 +13,7 @@ function About() {
       </div>
 
       <div className="aboutSection">
-        <h2>Integration with KSQLDB</h2>
+        <h2>Encapsulation</h2>
         <p>
           Connect your Atomic Kafka Consumers or Producers with your KSQLDB stream.
         </p>
@@ -22,8 +22,8 @@ function About() {
       <div className="aboutSection">
         <h2>Lightweight</h2>
         <p>
-          I don't know what to say with this one! I don't know what to say with this one!
-           I don't know what to say with this one! I don't know what to say with this one!
+          Our package helps you keep your package lightweight and efficient through the use of websockets
+          over restful architectures.
         </p>
       </div>
     </div>
