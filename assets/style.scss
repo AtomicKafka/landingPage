@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-@media screen and (max-width: 500px) {
+// @media screen and (max-width: 500px) {
+// }
+
+@media screen and (max-width: 990px) {
   .consumerGif img {
     height: 200px !important;
   }
-
+  
   .producerGif img {
     height: 200px !important;
   }
-}
-
-@media screen and (max-width: 990px) {
   .aboutContainer{
     padding: 0 10% !important;
   }
