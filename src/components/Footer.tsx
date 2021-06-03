@@ -86,9 +86,9 @@ function Footer() {
                     </p>
                 
                     <div className="contactUs">
-                        <a target="_blank" href="https://www.linkedin.com/in/joseph-lee-a97198213/">
+                        {/* <a target="_blank" href="https://www.linkedin.com/in/joseph-lee-a97198213/">
                             <img className="contactIcon" src="/assets/linkedInContact.svg" height="50" width="50" alt="" />
-                        </a>
+                        </a> */}
                         <a target="_blank" href="https://github.com/oslabs-beta/AtomicKafka">
                             <img className="contactIcon" src="/assets/githubContact.svg" height="50" width="50" alt="" />
                         </a>
