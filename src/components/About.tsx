@@ -6,7 +6,7 @@ function About() {
       <div className="aboutSection">
         <h2>React Integration</h2>
         <p>
-          Atomic Kafka provides developers with client and server libraries that support KafkaJS
+          AtomicKafka provides developers with client and server libraries that support KafkaJS
           React applications. Use our npm package to seamlessly connect stateful React components and a Kafka 
           message broker.
         </p>

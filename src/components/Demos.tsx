@@ -23,7 +23,7 @@ function Demos() {
         <h3 className="featureHeading">Consumer Demo</h3>
         <div className="demoText">
           The messages sent from the producer app can be seen in the New Sales section of the application. This component
-          is consuming messages using the socket provided in the Atomic Kafka library and rendering state based off of incoming
+          is consuming messages using the socket provided in the AtomicKafka library and rendering state based off of incoming
           messages.  
         </div>
         <div className="consumerGif">

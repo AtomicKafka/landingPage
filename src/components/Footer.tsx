@@ -80,11 +80,22 @@ function Footer() {
                      <a href="https://github.com/oslabs-beta/AtomicKafka/stargazers">
                         <img id="star" alt="GitHub Repo stars" src="https://img.shields.io/github/stars/oslabs-beta/AtomicKafka?color=%2366FCF1&style=for-the-badge"/>
                     </a>
-                    ! You can fork it <a className="linkLib" href="https://github.com/oslabs-beta/AtomicKafka"> here</a> and submit PRs.
-                
+                    !
                     <p>
-                        You can also email us: atomickafkajs[at]gmail[dot]com
+                        You can fork it <a className="linkLib" href="https://github.com/oslabs-beta/AtomicKafka"> here</a> and submit PRs.
                     </p>
+                
+                    <div className="contactUs">
+                        <a href="https://www.linkedin.com/in/joseph-lee-a97198213/">
+                            <img className="contactIcon" src="/assets/linkedInContact.svg" height="50" width="50" alt="" />
+                        </a>
+                        <a href="https://github.com/oslabs-beta/AtomicKafka">
+                            <img className="contactIcon" src="/assets/githubContact.svg" height="50" width="50" alt="" />
+                        </a>
+                        <a href="mailto:atomickafkajs@gmail.com">
+                            <img className="contactIcon" src="/assets/mail.svg" height="50" width="50" alt="" />
+                        </a>
+                    </div>
                     <p className="disclaimer">
                         MIT Licensed | Copyright @ 2021 AtomicKafka. All Rights Reserved.
                     </p>

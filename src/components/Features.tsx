@@ -4,15 +4,18 @@ import Gist from "react-gist";
 function Features() {
   return(
     <div id="featureLink" className="features">
-      
+      <div className="featuresTitleBox">
+    
+        <h2 className="featuresTitle">Features</h2>
+        <hr></hr>
+      </div>
       <div className="featureContent">
         <h3 className="featureHeading">Server-Side Library</h3>
         <div className="explainPlusBlock">
           <div className="codeExplain">
-            <p>Ensure that your .env file is set up with either your Confluent 
-              credentials or docker image. See an example of what that should look like in 
-              readme <a href="https://github.com/oslabs-beta/AtomicKafka" className="linkLib">here</a>. 
-              Simply import Atomic Kafka server side library and initialize an instance using the port 
+            <p>Ensure that your <span className="code-text">.env</span> file is set up with either your Confluent credentials or docker image. See an example of what that should look like in 
+              readme <a href="https://github.com/oslabs-beta/AtomicKafka" className="linkLib">here</a>.
+              Simply import AtomicKafka server side library and initialize an instance using the port 
               connected with the application's server. 
             </p>
           </div>
@@ -26,9 +29,9 @@ function Features() {
         </div>
         <div className="explainPlusBlock">
           <div className="codeExplain">
-            <p>Create consumers using the newConsumer function and pass in the group id that the consumer should be listenening on.
-              By invoking socketConsume with the group id, event, and topic the socket instance will emit the consumed messages for the consumer
-              with the specified group id. The app can now listen for those emitted events on the front end.
+            <p>Create consumers using the <span className="code-text">newConsumer</span> function and pass in the group id that the consumer should be listenening on.
+              By invoking <span className="code-text">socketConsume</span> with the group id, event, and topic the socket instance will emit the consumed messages for the consumer
+              with the specified <span className="code-text">group_ID</span>. The app can now listen for those emitted events on the front end.
             </p>
           </div>
           <div className="codeBlockContainer">
@@ -38,9 +41,7 @@ function Features() {
         </div>
         <div className="explainPlusBlock">
           <div className="codeExplain">
-          <p>Create consumers using the newProducer function and pass in the topic that the producer will send messages to.
-              By invoking globalProduce with a topic the socket instance will listen for messages that are emitted from the frontend.
-              The function fileProduce, seen in the producer demo app, allows for a controlled send of a message from the server side based on the user's payload input.
+          <p>Create producers using the <span className="code-text">newProducer</span> function and pass in the <span className="code-text">topic</span> that the producer will send messages to. By invoking <span className="code-text">globalProduce</span> with a topic the socket instance will listen for messages that are emitted from the frontend. The function <span className="code-text">fileProduce</span>, seen in the producer demo app, allows for a controlled send of a message from the server side based on the user's payload input.
           </p>
           </div>
           <div className="codeBlockContainer">
@@ -54,7 +55,7 @@ function Features() {
         <div className="explainPlusBlock">
           <div className="codeExplain">
           <p>
-            Import in the client library like so if using Typescript otherwise a normal import suffices if using Javascript (ES6+).
+            Import in the client library like so if using Typescript. Otherwise if using JavaScript (ES6+), a normal import will suffice.
           </p>
           </div>
           <div className="codeBlockContainer">
@@ -65,10 +66,8 @@ function Features() {
         <div className="explainPlusBlock">
           <div className="codeExplain">
             <p>
-              Instantiate the client class within a consumer component passing in the uri that the socket should listen on. By defining
-              a callback that takes a payload and changes state however necessary within the function body. Finally, by invoking useInterval and 
-              consumer, with the socket event and callback as parameters to consumer the app will now be listening to incoming messages that are emitted
-              from the server side.
+              Use a custom callback to update state within the consumer component. AtomicKafka's <span className="code-text">useInterval</span>
+              and <span className="code-text">consumer</span> functions will help control the pace of consumption from the cluster.
             </p>
           </div>
           <div className="codeBlockContainer">
@@ -79,8 +78,8 @@ function Features() {
         <div className="explainPlusBlock">
           <div className="codeExplain">
           <p>
-            When creating a producer component instantiate the client class with the appropriate uri that the socket will emit to.
-            Define a payload for the message that will be sent to the cluster and pass that into the client producer function along 
+            When creating a component that produces, instantiate the client class with the appropriate uri that the socket will emit to.
+            Define a <span className="code-text">payload</span> for the message that will be sent to the cluster and pass that into the client <span className="code-text">producer</span> function along 
             with the socket event that the payload will be sent to.
           </p>
           </div>

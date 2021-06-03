@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 @media screen and (max-width: 990px) {
   .aboutContainer{
     padding: 0 10% !important;
@@ -42,6 +44,9 @@
   }
   .features {
     padding: 0 10% !important;
+  }
+  .featureHeading {
+    padding: 0 !important;
   }
   .codeExplain {
     width: 100% !important;
@@ -253,6 +258,20 @@ body {
   cursor: pointer;
 }
 
+// .featuresTitleBox {
+  
+// }
+
+.featuresTitle {
+  color: ghostwhite;
+  text-align: center;
+  width: 100%;
+  font-size: 3em;
+  padding: 0;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
 .features {
   display: flex;
   flex-direction: column;
@@ -263,10 +282,11 @@ body {
 
 .featureHeading {
   color: ghostwhite;
-  text-align: center;
+  text-align: left;
   width: 100%;
   font-size: 2em;
   margin: 1em 0;
+  padding: 0 0.5em;
 }
 
 .featureContent {
@@ -289,6 +309,17 @@ body {
   // flex-basis: 1;
   width: 40%;
   padding: 0.5em 1em;
+}
+
+.codeExplain p {
+  line-height: 180%;
+}
+
+.code-text {
+  // color: #F2C791;
+  background-color: #012340;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.1em;
 }
 
 .codeExplain p {
@@ -339,7 +370,8 @@ body {
   text-align: center;
   margin: 0;
   font-size: 2em;
-  padding: 1em 0;
+  padding-top: 2.2em;
+  padding-bottom: 1em;
 }
 
 .teamFooter{
@@ -408,6 +440,10 @@ body {
 
 .feedback{
   padding: 1em 5%;
+}
+
+.contactUs a {
+  margin: 1em 0.5em;
 }
 
 .linkLib {
