@@ -13,7 +13,7 @@ function Demos() {
           <img src="/assets/producer.gif" alt="" />
         </div>
         {/* <div className="buttonContainer"> */}
-          <a href="https://github.com/AtomicKafka/atomicKafkaProducer">
+          <a href="https://github.com/AtomicKafka/atomicKafkaProducer" target="_blank">
             <button className="get-code-btn">Get the Code</button>
           </a>
         {/* </div> */}
@@ -30,7 +30,7 @@ function Demos() {
           <img src="/assets/consumer.gif" alt="" />
         </div>
         {/* <div className="buttonContainer"> */}
-          <a href="https://github.com/AtomicKafka/atomicKafkaConsumer">
+          <a href="https://github.com/AtomicKafka/atomicKafkaConsumer" target="_blank">
             <button className="get-code-btn">Get the Code</button>
           </a>
         {/* </div> */}
