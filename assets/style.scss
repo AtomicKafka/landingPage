@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+@media screen and (max-width: 500px) {
+  .consumerGif img {
+    height: 200px !important;
+  }
+
+  .producerGif img {
+    height: 200px !important;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .aboutContainer{
     padding: 0 10% !important;
@@ -155,7 +165,7 @@ body {
   border: 2px solid ghostwhite;
   color: ghostwhite;
   background-color: #0B0C10;
-  opacity: 75%;
+  // opacity: 75%;
 }
 
 #install-btn:hover {
