@@ -14,7 +14,7 @@ function Features() {
         <div className="explainPlusBlock">
           <div className="codeExplain">
             <p>Ensure that your <span className="code-text">.env</span> file is set up with either your Confluent credentials or docker image. See an example of what that should look like in 
-              readme <a target="_blank" href="https://github.com/oslabs-beta/AtomicKafka" className="linkLib">here</a>.
+              readme <a href="https://github.com/oslabs-beta/AtomicKafka" className="linkLib">here</a>.
               Simply import AtomicKafka server side library and initialize an instance using the port 
               connected with the application's server. 
             </p>
@@ -41,7 +41,7 @@ function Features() {
         </div>
         <div className="explainPlusBlock">
           <div className="codeExplain">
-          <p>Create producers using the <span className="code-text">newProducer</span> function and pass in the <span className="code-text">topic</span> that the producer will send messages to. By invoking <span className="code-text">globalProduce</span> with a topic the socket instance will listen for messages that are emitted from the frontend. The function <span className="code-text">fileProduce</span>, seen in the producer demo app, allows for a controlled send of a message from the server side based on the user's payload input.
+          <p>Create producer using the <span className="code-text">newProducer</span> function and pass in the <span className="code-text">topic</span> that the producer will send messages to. By invoking <span className="code-text">socketProduce</span> with a topic the socket instance will listen for messages that are emitted from the frontend. The function <span className="code-text">fileProduce</span>, seen in the producer demo app, allows for a controlled send of a message from the server side based on the user's payload input.
           </p>
           </div>
           <div className="codeBlockContainer">
